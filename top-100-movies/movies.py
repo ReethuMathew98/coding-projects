@@ -18,6 +18,6 @@ for movie in movie_titles:
 movies.reverse()
 
 # Writing the output file
-with open('movies.txt', 'w', encoding='UTF-8') as file:
+with open('output.txt', 'w', encoding='UTF-8') as file:
     for movie in movies:
         file.write(f"{movie}\n")
